@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-    <script style ="color: cyan;font-size: 50px;" language="javascript">/*改顏色 大小WTFFFFFF*/
-        　
-        var Today=new Date();
-        
-       document.write("美好的今天是 : " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日");
-        
-       
-        
-        </script>
-     
+<head>
     <style>
         *{box-sizing: border-box;}
 
@@ -68,9 +58,29 @@
     }
 
     </style>
+<script style ="color: cyan;font-size: 50px;" language="javascript">/*改顏色 大小WTFFFFFF*/
+        　
+    var Today=new Date();
+    var Str = new String("今天是 : " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日");
+     
+     
+        document.write(Str.fontsize("52"));
+        
+        document.write(Str.fontcolor("blue"));
+        /*document.write(Str.big(99));*/
+       
+   
+    
+   
+    
+    </script>
+</head>
+   
+     
+     
     
 <body>
-
+<title>Lin's page</title>
     <h1 style="text-align:center    top;color:#63d659;">我的網站</h1>
 
     <table style = "border-color: aquamarine;"> </table>   
@@ -103,7 +113,7 @@
              <!--我的照片-->  
              <h2 style="padding-bottom: 10px;" id="C1">My picture</h2>
              <p style="padding-bottom: 30px;" >早安,你今天量體溫了嗎？</p>
-             <img src="https://i2.kknews.cc/SIG=38k411h/ctp-vzntr/3o34s38737084qrqo7q756qs949o38s3.jpg" alt="👀...失誤">
+             <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMHEhEQEBIVFhMTEBgTFhIXGBUWFRYSIBcbFhcZExgYHSggGBspHRYVIj0lMSk3Li4wGSAzODMsNyguLysBCgoKDg0OFxAPFSsdHSUrKystLS0tLSstLSs3Nzc3LSstKzErKy02LTctNysrLS43KysrKysxKy4rNysyLSsrK//AABEIAQMAwgMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBAUCAQj/xABEEAABAwIEBAMFAwkECwAAAAABAAIDBBEFBhIhBxMxQSJRYTJxgZGhFEJSFRYjYnKCkrHBJDM1QyU0Y3N0g6KzwtLT/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABwRAQEBAQADAQEAAAAAAAAAAAABEQIhMUEDEv/aAAwDAQACEQMRAD8Au1ERZYEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQFwc8YzNgFHJU00POla5gEVnOuC4NOzN9gSfgu8uPm6SoipJjStaZNBF3PMelljrc1wBIcBuNuoQipcU4q15dTlkmHRgyDU1svN1i48MjrHlN6i+3XrspdkfPdVmGsNNLBByhC55qKd7pYw8Wswv9kOsb269FQ+KYg2d0BE5dplBuZZXadxvd0LdPvAJ9FanCLEJql9W2KQyQCIGZwlmlkidpk5boIzE3U8kEbXPhb6KtPOOcYKvCqo66SEQwl8UlN9oifK6UOI1am3cy1h4dHnc7i23lLidWYvXCF1PC6KolY2OJlTTl8DP8xxt4pbNDnWsD1VYZjldVSmfXUOpWvLo31Lo4555Gmz3R+A6iHdRYnz36d3I878Xr6OBs8zDMHP5kU0LnMDY3PIcGwgtJALSL9yg/SKIijIiIgIiICIiAiIgIiICIiAiIgIiICIiAsVXAKpj4ybB7HMJHUAgjb5rKiCv8O4Uw4fG2KPEcSY1t7NjqBGwXJJs1rLDcrsZNyTFlN9VJHNPK6qcxz3TOa91267HUACSdZ3PkpQiauoLjvDGLHXSmevxEslkc8wc9phbd2sNYxzCA0G1h2sFr0/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" alt="👀...失誤">
         
             <!--歌曲的部分-->  
             <h2 style="padding-top: 50px;" id="C2">My favorite Song</h2>
@@ -144,5 +154,8 @@
         <style> body{font-size:20px;   background-color: chartreuse;}  </style>
         </body>-->
   
+        
+
+
 </body>
 </html>
