@@ -1,7 +1,7 @@
-一级標題
+網頁設計
 =======
 
-## 二级標題
+## 第二節課
 
 段落以空白行分隔。
 
@@ -27,20 +27,14 @@
   2. 1到10
   3. 100
   
-  |                  |
-  |   ####  2F       |
-  |_________________ |
-  |                  |  
-  |   ####  1F       |
-  |                  |
-  |_________________ |
-  |     **B1**       |
-  |                  |
-  
+| 一號套餐 |二號套餐 | 三號套餐|
+|---------|--------|---------|
+| 20元    | 30元   | 40元    |
+|---------|---------|--------|
 
-[https://i2.wp.com/5b0988e595225.cdn.sohucs.com/images/20180720/75740172688c40bbabbb929b7ad492c6.jpeg?w](http://example.com)
+[嗨](https://i2.wp.com/5b0988e595225.cdn.sohucs.com/images/20180720/75740172688c40bbabbb929b7ad492c6.jpeg?w)
 
-![圖](Icon-pictures.png "icon")
+![圖](https://1.bp.blogspot.com/_Ia4k16d7RUw/SOxJ17NfV8I/AAAAAAAAAG0/nPpc9w59otk/s400/%E6%B5%B7%E7%B6%BF%E5%AF%B6%E5%AF%B6.bmp)
 
 > Markdown使用電郵用字元「>」來引用。
 
