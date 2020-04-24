@@ -19,7 +19,7 @@
   * 我的
   * 肚子
   * 有點餓
-     -多餓
+     ---多餓
 ***
 編號列表：
 
@@ -32,7 +32,7 @@
 | 20元    | 30元   | 40元    |
 |---------|---------|--------|
 
-[嗨](https://i2.wp.com/5b0988e595225.cdn.sohucs.com/images/20180720/75740172688c40bbabbb929b7ad492c6.jpeg?w)
+[嗨,這是一隻狗](https://i2.wp.com/5b0988e595225.cdn.sohucs.com/images/20180720/75740172688c40bbabbb929b7ad492c6.jpeg?w)
 
 ![圖](https://1.bp.blogspot.com/_Ia4k16d7RUw/SOxJ17NfV8I/AAAAAAAAAG0/nPpc9w59otk/s400/%E6%B5%B7%E7%B6%BF%E5%AF%B6%E5%AF%B6.bmp)
 
