@@ -1,70 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-* {
-  font-size: 16px;
-  margin: 0px;
-}
-label {
-  /* border: 1px solid black;
-  padding: 10px; */
-}
-textarea {
-  width: 100%;
-  height: 100px;
-}
-button {
-  padding: 10px;
-  background-color: lightblue;
-  border: 1px solid lightblue;
-}
-input {
-  padding: 6px;
-  font-size: 16px;
-}
+  <head>
+    <div style="background-color:lightskyblue ;">
+          
+    <table >
+     <h1 style="text-align: center;font-family: 標楷體;color: #117780; "> 汽車相關問卷調查</h1>
+    </table>
+  
+  </div>
+  </head>
 
-input, textarea, button {
-  border-radius: 5px;
-}
+  
+  <body >
+    <h2 style="text-align: center;">現在完成還有大獎抽!</h2>
+    
+
+  <table  style="background-color: lightpink ;margin-left: 570px; margin: auto;" ><!--YOOOOOOOOOOOOOOOOOOOO!!!再修-->
+    <tr>
+      <td  valign="middle">
+    
+ 
+  <form   action="/action_page.php"  style=" text-align:left;background-color: mediumaquamarine;">
+    <fieldset  >
+      <legend >For research</legend>
+      <label  for="Name">使用者名稱(Nickname):</label><br>
+      <input type="text" id="Name"Name="Name" value="哈ㄇㄟ二齒"> <br><br>
+     
+      <label for="Mail">電子信箱:</label><br>
+      <input type="text" id="Mail"Mail="Mail" value="abc123@gmail.com"><br><br>
+
       
-.main {
-    margin: 20px;
-    padding: 10px;
-}
-</style>
-</head>
-<body>
-<div class="main">
-    <form>
-        <fieldset>
-          <legend>個人資料</legend>
-        <label for="username">帳號:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="pwd">密碼:</label><br>
-        <input type="password" id="pwd" name="pwd"><br/>
-      
-        <label>血型</label><br>
+      <label for="gender" >Gender:</label><br>
+
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+  
+      <input type="radio" id="Female" name="gender" value="Female">
+      <label for="Female">Female</label><br>
+  
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+
+      <label for="cars">Choose a car you will buy:</label><br>
       <select id="cars" name="cars">
-        <option value="A">A</option>
-        <option value="B">B</option>
-        <option value="AB">AB</option>
-        <option value="O">O</option>
-      </select><br/>
-        <label for="birthday">生日:</label><br/>
-        <input type="date" id="birthday" name="birthday">
-        <br/>
-        <label>留言:</label><br/>
-      <textarea name="message">
-      
-      </textarea>
-      <br/><br/>
-          <button>註冊</button><br/><br/>
-      <input type="checkbox" name="subscribe" value="subscribe">
-      <label>訂閱電子報:</label>
-        </fieldset>
-      </form>      
-</div>
+          <option value="audi">Audi</option>
+          <option value="ferrari">Ferrari</option>
+          <option value="lamborghini">Lamborghini</option>
+          <option value="porsche">Porsche</option>
+          <option value="jaguar">Jaguar</option>
+          <option value="toyota">Totota</option>
+          <option value="honda">Honda</option>
+          <option value="ford">Ford</option>
+          <option value="volvo">Volvo</option>
+          <option value="mitsubishi">Mitsubishi</option>
+      </select><br><br><br>
 
+      <label for="considers">What factors do you consider when buying a car:</label><br>
+      <input type="checkbox" id="factors1" name="factors1" value="price">
+      <label for="factors1">The price</label><br>
+      <input type="checkbox" id="factors2" name="factors2" value="oil">
+      <label for="factors2">The Fuel consumption</label><br>
+      <input type="checkbox" id="factors3" name="factors3" value="security">
+      <label for="factors3">The security</label><br><br>
+
+
+
+      
+      <label for="message">Message box:</label><br>
+      <textarea name="message" style="width:100px ; height:60px";>Any other cars you want?</textarea><br><br>
+
+      <label for="fillingdate">Filling Date:</label>
+  <input type="date" id="fillingdate" name="fillingdate">
+      
+      
+    </fieldset>
+
+    <input  style="text-align: center;" type="reset"><br>
+    <input  type="submit"onclick="alert('Thank you!')" value="Submit" >
+
+  </form>
+</td>
+</tr>
+</table>
 </body>
+
+
 </html>
